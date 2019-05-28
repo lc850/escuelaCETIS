@@ -26,7 +26,7 @@
 		<div class="row well">
 			<div class="col-md-6 col-md-offset-3">
 				<form action="update.php" method="POST">
-					<input type="hidden" name="id">
+					<input type="hidden" name="id" value="<?php echo $alumno->id;  ?>">
 					<div class="form-group">
 						<label for="Nombre">Nombre:</label>
 						<input type="text" name="nombre" class="form-control" value="<?php echo $alumno->nombre; ?>">

@@ -38,7 +38,7 @@
 				echo '<td>'.$obj->edad.'</td>';
 				echo '<td>'.$obj->telefono.'</td>';
 				echo '<td>'.$obj->sexo.'</td>';
-				echo '<td><a class="btn btn-xs btn-primary" href="editarAlumno.php?id='.$obj->id.'">Editar</a></td></tr>';
+				echo '<td><a class="btn btn-xs btn-primary" href="editarAlumno.php?id='.$obj->id.'">Editar</a>  <a class="btn btn-xs btn-default" href="eliminar.php?id='.$obj->id.'">Eliminar</a></td></tr>';
 			}
 	 ?>
 </body>

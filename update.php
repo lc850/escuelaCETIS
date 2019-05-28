@@ -22,6 +22,8 @@
    			 echo "Registro de alumno modificado <a href='consultarAlumnos.php'>Regresar</a>";
 		} else {
 			echo "ocurrió un error";
+			echo $conexion->error;
+			echo $sql;
 		}
 		$conexion->close();
  ?>

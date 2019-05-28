@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo</title>
+</head>
+<body>
+	<label for="">Nombre</label>
+	<input type="text" id="name" placeholder="Teclea nombre">
+	<button onclick="entrada()">Entrar</button>	
+<script>
+	function entrada() {
+		alert("hola "+document.getElementById("name").value);
+		var nombre = document.getElementById("name").value;
+		window.location.href = "consultarAlumnos.php?nom="+nombre;
+	}
+</script>
+</body>
+</html>
